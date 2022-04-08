@@ -1,0 +1,180 @@
+#title {
+  background-color: #ff4c68;
+  position:relative;
+  z-index:1;
+
+}
+
+#features {
+  text-align: center;
+  background-color: #fff;
+  text-align: center;
+  padding: 10% 10% 5%;
+  position:relative;
+  z-index: 1;
+}
+
+/* navbar title */
+.navbar-brand {
+  font-family: 'ubuntu-regular-400';
+  font-size: 3rem;
+}
+
+/* navbar button list*/
+.navbar {
+  font-family: 'ubuntu-light';
+  font-size: 1.5rem;
+  padding-bottom: 50px;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+button {
+  margin-right: 20px;
+}
+
+a {
+  padding-right: 60%;
+}
+
+h1 {
+  font-family: 'Montserrat-Black-900-italic', 'Montserrat', 'sans-serif', 'Ubuntu';
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: 'montserrat-bold';
+  font-weight: bold;
+}
+
+p {
+  color: grey;
+}
+
+/* iphone6 image*/
+.imgiphone {
+  width: 19%;
+  transform: rotate(25deg);
+  position: absolute;
+  margin-left: 7%;
+  z-index: 1;
+}
+
+
+/* icons */
+.icon:hover {
+  color: #ff4c68;
+}
+
+.icon {
+  color: #ef8172;
+  padding-bottom: 1rem;
+}
+
+/* testimonials section*/
+#testimonials{
+  background-color: #FE7E6D;
+  color: #fff;
+  text-align: center;
+  position:relative;
+
+}
+.testimonials-img{
+  border-radius: 100px;
+  margin: 20px;
+  width:15%;
+
+}
+.carousel-item{
+  padding: 7% 30% 3%;
+
+}
+h2{
+
+  font-weight: bold;
+  font-family: 'montserrat-bold';
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+/* Press Id */
+#press{
+  text-align: center;
+  background-color: #FE7E6D;
+  padding: 5% 15%;
+
+}
+.press-img{
+  margin: 30px;
+  width: 15%;
+}
+/* pricing section */
+
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+
+}
+
+.pricing-colom{
+  padding: 3% 2%;
+
+}
+
+/* CTA section */
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 7% 15% 10% ;
+
+}
+
+
+
+/* footer section*/
+#cta{
+  font-family: 'montserrat-black';
+  color: #fff;
+  font-weight: bold;
+  margin-bottom: 40px;
+
+}
+
+button {
+  margin-top:30px;
+}
+.footer-icons:hover{
+  color: #ff4c68;
+}
+.copyright{
+  font-stretch: expanded;
+}
+.love:hover{
+  color: red;
+}
+
+
+
+#footer{
+     background-color: #fff;
+     text-align: center;
+     padding: 5% 15% 3%;
+}
+.fa-brands{
+  margin:10px;
+}
+
+
+ @media (max-width:987px){
+.imgiphone {
+    width: 40%;
+    padding-top: 30px;
+    position:static;
+    align: center;
+    transform: rotate(0);
+  }
+}
